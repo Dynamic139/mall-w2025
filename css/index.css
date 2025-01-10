@@ -2,35 +2,186 @@
 ---------------------------------*/
 .top{
 	height: 30px;
-	background-color: gray;
+	line-height: 30px;
+	background-color: #f3f3f3;
+}
+.top .user-info{
+	float: left;
+
+}
+.top .nav-list{
+	float: right;
+}
+.top .nav-list .nav-item{
+	float: left;
+	margin-left: 10px;
+}
+.top .nav-list .nav-item .fa-cart-arrow-down{
+	font-size: 12px;
 }
 /*头部搜索
 ---------------------------------*/
 .header{
 	height: 100px;
-	background-color: pink;
+	background-color: #fff;
+	border-bottom:1px solid #52c41a;
+	margin-bottom: 30px;
+}
+.header .logo{
+	float: left;
+	line-height: 100px;
+}
+.header .logo a{
+	font-size: 30px;
+	color: #52c41a;
+	font-weight: bold;
+}
+.header .search-warp{
+	float: left;
+}
+.header .search-warp .search-box{
+	margin-top: 18px;
+}
+.header .search-warp .search-input{
+	width: 400px;
+	height: 38px;
+	line-height: 38px;
+	border: 2px solid #52c41a;
+	font-size: 16px;
+	padding-left: 10px;
+	float: left;
+}
+.header .search-warp .search-input:focus{
+	outline-color: #52c41a;
+}
+.header .search-warp .search-btn{
+	width: 100px;
+	height: 42px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #52c41a;
+	color: #fff;
+	float: left;
+	font-size: 16px;
+	font-weight: 800;
+}
+.header .search-warp .search-btn:hover{
+	opacity: .7;
+}
+.header .search-warp .nav-list{
+	margin-top: 15px;
+}
+.header .nav-list .nav-item{
+	float: left;
+	margin-right: 20px;
+}
+.header .nav-list .nav-item a{
+	font-size: 16px;
+	font-weight: 200;
 }
 /*焦点区域
 ---------------------------------*/
 .focus{
+	margin-bottom: 40px;
+}
+
+.focus .categories{
+	float: left;
 	height: 440px;
-	background-color: tomato;
+	background-color: #fff;
+}
+.focus .categories .parent-categroies{
+	padding: 20px 0;
+}
+.focus .categories .parent-categroies .parent-categories-item{
+	line-height: 40px;
+	padding-left: 10px;
+}
+.focus .categories .parent-categroies .keyword-item{
+	font-size: 16px;
+	margin-right: 5px;
+}
+.focus .categories .parent-categroies .parent-categories-item:hover{
+	background-color: #eee;
+}
+.focus .swiper{
+	float: left;
+	height: 440px;
+	position: relative;
+}
+.focus .swiper .img-wrap,.focus .swiper .img-item{
+	width: 100%;
+	height: 100%;
+}
+.focus .swiper .img-wrap img{
+	width: 100%;
+	height: 100%;
+}
+.focus .swiper .img-item{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.focus .swiper .arrow{
+	width: 40px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	font-size: 40px;
+	color: #007aff;
+	cursor: pointer;
+	user-select: none;
+}
+.focus .swiper .left-arrow{
+	left: 0;
+}
+.focus .swiper .right-arrow{
+	right: 0;
+}
+.focus .swiper .btn-wrap{
+	width: 70px;
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+	margin-left: -35px;
+}
+.focus .swiper .btn-wrap .btn{
+	width: 25px;
+	height: 25px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.focus .swiper .btn-wrap .btn.active{
+	background-color: #52c41a;
 }
 /*热销区域
 ---------------------------------*/
 .hot{
+	
+}
+.hot .container{
 	height: 300px;
 	background-color: blue;
 }
 /*楼层
 ---------------------------------*/
 .floor{
+	
+}
+.floor .container{
 	height: 600px;
 	background-color: orange;
 }
 /*底部
 ---------------------------------*/
 .footer{
+	
+}
+.footer .container{
 	height: 252px;
 	background-color: yellow;
 }
